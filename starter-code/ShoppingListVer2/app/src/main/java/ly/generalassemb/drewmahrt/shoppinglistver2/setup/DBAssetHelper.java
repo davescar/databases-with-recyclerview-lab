@@ -13,6 +13,7 @@ public class DBAssetHelper extends SQLiteAssetHelper {
     private static final int DATABASE_VERSION = 7;
 
     public DBAssetHelper(Context context) {
+
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 }
